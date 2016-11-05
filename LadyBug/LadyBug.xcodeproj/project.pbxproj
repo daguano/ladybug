@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8835AAB61DCE521800DB716A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8835AAB51DCE521800DB716A /* AppDelegate.swift */; };
+		8835AAB81DCE521800DB716A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8835AAB71DCE521800DB716A /* ViewController.swift */; };
+		8835AABB1DCE521800DB716A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8835AAB91DCE521800DB716A /* Main.storyboard */; };
+		8835AABD1DCE521800DB716A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8835AABC1DCE521800DB716A /* Assets.xcassets */; };
+		8835AAC01DCE521800DB716A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8835AABE1DCE521800DB716A /* LaunchScreen.storyboard */; };
+		8835AACB1DCE521800DB716A /* LadyBugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8835AACA1DCE521800DB716A /* LadyBugTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8835AAC71DCE521800DB716A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8835AAAA1DCE521800DB716A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8835AAB11DCE521800DB716A;
+			remoteInfo = LadyBug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8835AAB21DCE521800DB716A /* LadyBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LadyBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8835AAB51DCE521800DB716A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8835AAB71DCE521800DB716A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8835AABA1DCE521800DB716A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8835AABC1DCE521800DB716A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8835AABF1DCE521800DB716A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8835AAC11DCE521800DB716A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8835AAC61DCE521800DB716A /* LadyBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LadyBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8835AACA1DCE521800DB716A /* LadyBugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadyBugTests.swift; sourceTree = "<group>"; };
+		8835AACC1DCE521800DB716A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8835AAAF1DCE521800DB716A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8835AAC31DCE521800DB716A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8835AAA91DCE521800DB716A = {
+			isa = PBXGroup;
+			children = (
+				8835AAB41DCE521800DB716A /* LadyBug */,
+				8835AAC91DCE521800DB716A /* LadyBugTests */,
+				8835AAB31DCE521800DB716A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8835AAB31DCE521800DB716A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8835AAB21DCE521800DB716A /* LadyBug.app */,
+				8835AAC61DCE521800DB716A /* LadyBugTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8835AAB41DCE521800DB716A /* LadyBug */ = {
+			isa = PBXGroup;
+			children = (
+				8835AAB51DCE521800DB716A /* AppDelegate.swift */,
+				8835AAB71DCE521800DB716A /* ViewController.swift */,
+				8835AAB91DCE521800DB716A /* Main.storyboard */,
+				8835AABC1DCE521800DB716A /* Assets.xcassets */,
+				8835AABE1DCE521800DB716A /* LaunchScreen.storyboard */,
+				8835AAC11DCE521800DB716A /* Info.plist */,
+			);
+			path = LadyBug;
+			sourceTree = "<group>";
+		};
+		8835AAC91DCE521800DB716A /* LadyBugTests */ = {
+			isa = PBXGroup;
+			children = (
+				8835AACA1DCE521800DB716A /* LadyBugTests.swift */,
+				8835AACC1DCE521800DB716A /* Info.plist */,
+			);
+			path = LadyBugTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8835AAB11DCE521800DB716A /* LadyBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8835AACF1DCE521800DB716A /* Build configuration list for PBXNativeTarget "LadyBug" */;
+			buildPhases = (
+				8835AAAE1DCE521800DB716A /* Sources */,
+				8835AAAF1DCE521800DB716A /* Frameworks */,
+				8835AAB01DCE521800DB716A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LadyBug;
+			productName = LadyBug;
+			productReference = 8835AAB21DCE521800DB716A /* LadyBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8835AAC51DCE521800DB716A /* LadyBugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8835AAD21DCE521800DB716A /* Build configuration list for PBXNativeTarget "LadyBugTests" */;
+			buildPhases = (
+				8835AAC21DCE521800DB716A /* Sources */,
+				8835AAC31DCE521800DB716A /* Frameworks */,
+				8835AAC41DCE521800DB716A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8835AAC81DCE521800DB716A /* PBXTargetDependency */,
+			);
+			name = LadyBugTests;
+			productName = LadyBugTests;
+			productReference = 8835AAC61DCE521800DB716A /* LadyBugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8835AAAA1DCE521800DB716A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Hackaton;
+				TargetAttributes = {
+					8835AAB11DCE521800DB716A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8N635NUGCF;
+						ProvisioningStyle = Automatic;
+					};
+					8835AAC51DCE521800DB716A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8N635NUGCF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8835AAB11DCE521800DB716A;
+					};
+				};
+			};
+			buildConfigurationList = 8835AAAD1DCE521800DB716A /* Build configuration list for PBXProject "LadyBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8835AAA91DCE521800DB716A;
+			productRefGroup = 8835AAB31DCE521800DB716A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8835AAB11DCE521800DB716A /* LadyBug */,
+				8835AAC51DCE521800DB716A /* LadyBugTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8835AAB01DCE521800DB716A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8835AAC01DCE521800DB716A /* LaunchScreen.storyboard in Resources */,
+				8835AABD1DCE521800DB716A /* Assets.xcassets in Resources */,
+				8835AABB1DCE521800DB716A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8835AAC41DCE521800DB716A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8835AAAE1DCE521800DB716A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8835AAB81DCE521800DB716A /* ViewController.swift in Sources */,
+				8835AAB61DCE521800DB716A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8835AAC21DCE521800DB716A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8835AACB1DCE521800DB716A /* LadyBugTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8835AAC81DCE521800DB716A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8835AAB11DCE521800DB716A /* LadyBug */;
+			targetProxy = 8835AAC71DCE521800DB716A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8835AAB91DCE521800DB716A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8835AABA1DCE521800DB716A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8835AABE1DCE521800DB716A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8835AABF1DCE521800DB716A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8835AACD1DCE521800DB716A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8835AACE1DCE521800DB716A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8835AAD01DCE521800DB716A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N635NUGCF;
+				INFOPLIST_FILE = LadyBug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackaton.LadyBug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8835AAD11DCE521800DB716A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N635NUGCF;
+				INFOPLIST_FILE = LadyBug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackaton.LadyBug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8835AAD31DCE521800DB716A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8N635NUGCF;
+				INFOPLIST_FILE = LadyBugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackaton.LadyBugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LadyBug.app/LadyBug";
+			};
+			name = Debug;
+		};
+		8835AAD41DCE521800DB716A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8N635NUGCF;
+				INFOPLIST_FILE = LadyBugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackaton.LadyBugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LadyBug.app/LadyBug";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8835AAAD1DCE521800DB716A /* Build configuration list for PBXProject "LadyBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8835AACD1DCE521800DB716A /* Debug */,
+				8835AACE1DCE521800DB716A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8835AACF1DCE521800DB716A /* Build configuration list for PBXNativeTarget "LadyBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8835AAD01DCE521800DB716A /* Debug */,
+				8835AAD11DCE521800DB716A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8835AAD21DCE521800DB716A /* Build configuration list for PBXNativeTarget "LadyBugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8835AAD31DCE521800DB716A /* Debug */,
+				8835AAD41DCE521800DB716A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8835AAAA1DCE521800DB716A /* Project object */;
+}
