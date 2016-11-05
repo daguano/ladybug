@@ -13,6 +13,10 @@
 		8835AABD1DCE521800DB716A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8835AABC1DCE521800DB716A /* Assets.xcassets */; };
 		8835AAC01DCE521800DB716A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8835AABE1DCE521800DB716A /* LaunchScreen.storyboard */; };
 		8835AACB1DCE521800DB716A /* LadyBugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8835AACA1DCE521800DB716A /* LadyBugTests.swift */; };
+		8835AAEF1DCE5DF000DB716A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8835AAEB1DCE5DF000DB716A /* Bolts.framework */; };
+		8835AAF01DCE5DF000DB716A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8835AAEC1DCE5DF000DB716A /* FBSDKCoreKit.framework */; };
+		8835AAF11DCE5DF000DB716A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8835AAED1DCE5DF000DB716A /* FBSDKLoginKit.framework */; };
+		8835AAF21DCE5DF000DB716A /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8835AAEE1DCE5DF000DB716A /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		8835AAC61DCE521800DB716A /* LadyBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LadyBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8835AACA1DCE521800DB716A /* LadyBugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadyBugTests.swift; sourceTree = "<group>"; };
 		8835AACC1DCE521800DB716A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8835AAEB1DCE5DF000DB716A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Frameworks/Bolts.framework; sourceTree = "<group>"; };
+		8835AAEC1DCE5DF000DB716A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Frameworks/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		8835AAED1DCE5DF000DB716A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		8835AAEE1DCE5DF000DB716A /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = Frameworks/FBSDKShareKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8835AAF21DCE5DF000DB716A /* FBSDKShareKit.framework in Frameworks */,
+				8835AAEF1DCE5DF000DB716A /* Bolts.framework in Frameworks */,
+				8835AAF01DCE5DF000DB716A /* FBSDKCoreKit.framework in Frameworks */,
+				8835AAF11DCE5DF000DB716A /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +71,10 @@
 		8835AAA91DCE521800DB716A = {
 			isa = PBXGroup;
 			children = (
+				8835AAEB1DCE5DF000DB716A /* Bolts.framework */,
+				8835AAEC1DCE5DF000DB716A /* FBSDKCoreKit.framework */,
+				8835AAED1DCE5DF000DB716A /* FBSDKLoginKit.framework */,
+				8835AAEE1DCE5DF000DB716A /* FBSDKShareKit.framework */,
 				8835AAB41DCE521800DB716A /* LadyBug */,
 				8835AAC91DCE521800DB716A /* LadyBugTests */,
 				8835AAB31DCE521800DB716A /* Products */,
@@ -340,6 +356,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8N635NUGCF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = LadyBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hackaton.LadyBug;
@@ -353,6 +374,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8N635NUGCF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = LadyBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hackaton.LadyBug;
