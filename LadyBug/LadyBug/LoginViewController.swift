@@ -9,8 +9,8 @@
 import UIKit
 import FBSDKLoginKit
 
-class ViewController: UIViewController, FBSDKLoginButtonDelegate {
-
+class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
+    
     var firstTime: Bool = true
     
     override func viewDidAppear(_ animated: Bool) {
