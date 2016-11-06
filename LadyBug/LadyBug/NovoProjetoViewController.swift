@@ -26,6 +26,9 @@ class NovoProjetoViewController: UIViewController {
         
         view.addGestureRecognizer(tap)
         
+        let projeto = Projeto()
+        projeto.setDescricao(descricao: self.textView.text)
+        
     }
 
     override func didReceiveMemoryWarning() {

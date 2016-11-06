@@ -204,10 +204,10 @@ O dinheiro investido será utilizado na compra de tecidos, linhas e agulhas, tod
             </objects>
             <point key="canvasLocation" x="2256.8000000000002" y="764.16791604197908"/>
         </scene>
-        <!--View Controller-->
+        <!--Precos View Controller-->
         <scene sceneID="eeJ-I2-cyS">
             <objects>
-                <viewController id="XMR-gO-fc2" sceneMemberID="viewController">
+                <viewController id="XMR-gO-fc2" customClass="PrecosViewController" customModule="Minas_de_Ouro" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vq3-ue-2UF"/>
                         <viewControllerLayoutGuide type="bottom" id="wDJ-MK-lHm"/>
@@ -227,9 +227,62 @@ O dinheiro investido será utilizado na compra de tecidos, linhas e agulhas, tod
                                     <segue destination="sx8-Rw-zdi" kind="show" id="TPB-IW-ijL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyC-1U-3Tp">
+                                <rect key="frame" x="10" y="229" width="355" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="R$ 100,00">
+                                    <color key="titleColor" red="0.99873858690261841" green="0.29440087080001831" blue="0.29305821657180786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEa-dY-TaT">
+                                <rect key="frame" x="10" y="282" width="355" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <state key="normal" title="R$ 200,00">
+                                    <color key="titleColor" red="0.99873858689999995" green="0.29440087079999999" blue="0.29305821659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyM-lg-lTt">
+                                <rect key="frame" x="10" y="334" width="355" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <state key="normal" title="R$ 300,00">
+                                    <color key="titleColor" red="0.99873858689999995" green="0.29440087079999999" blue="0.29305821659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWL-uY-S1H">
+                                <rect key="frame" x="10" y="387" width="355" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <state key="normal" title="R$ 400,00">
+                                    <color key="titleColor" red="0.99873858689999995" green="0.29440087079999999" blue="0.29305821659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5f-Bu-LO5">
+                                <rect key="frame" x="10" y="439" width="355" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <state key="normal" title="R$ 500,00">
+                                    <color key="titleColor" red="0.99873858689999995" green="0.29440087079999999" blue="0.29305821659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="preco100Button" destination="AyC-1U-3Tp" id="wJY-Kk-OAJ"/>
+                        <outlet property="preco200Button" destination="rEa-dY-TaT" id="ANb-c6-eqI"/>
+                        <outlet property="preco300Button" destination="CyM-lg-lTt" id="rek-qA-h6h"/>
+                        <outlet property="preco400Button" destination="DWL-uY-S1H" id="qX5-AH-kyb"/>
+                        <outlet property="preco500Button" destination="k5f-Bu-LO5" id="mYa-rm-mvh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w6V-t9-Ydy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
