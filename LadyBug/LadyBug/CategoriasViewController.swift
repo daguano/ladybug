@@ -10,19 +10,19 @@ import UIKit
 
 class CategoriasViewController: UIViewController {
 
-    
     @IBOutlet weak var categoria1Button: UIButton!
-    
     @IBOutlet weak var categoria2Button: UIButton!
-    
     @IBOutlet weak var categoria3Button: UIButton!
-  
     @IBOutlet weak var categoria4Button: UIButton!
-    
     @IBOutlet weak var categoria5Button: UIButton!
-    
     @IBOutlet weak var categoria6Button: UIButton!
     
+    @IBOutlet weak var acessoriosImage: UIImageView!
+    @IBOutlet weak var petsImage: UIImageView!
+    @IBOutlet weak var vestuarioImage: UIImageView!
+    @IBOutlet weak var decoracaoImage: UIImageView!
+    @IBOutlet weak var alimentosImage: UIImageView!
+    @IBOutlet weak var cosmeticosImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +34,13 @@ class CategoriasViewController: UIViewController {
         categoria5Button.addTarget(self, action: #selector(self.projetos), for: .touchUpInside)
         categoria6Button.addTarget(self, action: #selector(self.projetos), for: .touchUpInside)
 
+        acessoriosImage.layer.cornerRadius = 8.0
+        petsImage.layer.cornerRadius = 8.0
+        vestuarioImage.layer.cornerRadius = 8.0
+        decoracaoImage.layer.cornerRadius = 8.0
+        alimentosImage.layer.cornerRadius = 8.0
+        cosmeticosImage.layer.cornerRadius = 8.0
+        
     }
 
     override func didReceiveMemoryWarning() {

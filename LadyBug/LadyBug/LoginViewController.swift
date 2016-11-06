@@ -17,10 +17,6 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
         super.viewDidAppear(animated)
         if (FBSDKAccessToken.current() != nil && !firstTime)
         {
-            
-            //let menu = self.storyboard?.instantiateViewController(withIdentifier: "Menu") as! MenuViewController
-            //self.present(menu, animated: true, completion: nil)
-            
             let req = FBSDKGraphRequest(graphPath: "me", parameters: ["fields":"email,name,gender,location,work,friends"], tokenString: FBSDKAccessToken.current().tokenString, version: nil, httpMethod: "GET")
             
             req?.start(completionHandler: { (conn, result, error) in
@@ -68,9 +64,6 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
         
         if (FBSDKAccessToken.current() != nil && !firstTime)
         {
-            
-            //let menu = self.storyboard?.instantiateViewController(withIdentifier: "Menu") as! MenuViewController
-            //self.present(menu, animated: true, completion: nil)
             
             let req = FBSDKGraphRequest(graphPath: "me", parameters: ["fields":"email,name,gender,location,work,friends"], tokenString: FBSDKAccessToken.current().tokenString, version: nil, httpMethod: "GET")
             

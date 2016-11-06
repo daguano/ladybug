@@ -20,7 +20,6 @@ class InitialViewController: UIViewController {
 
         investirButton.addTarget(self, action: #selector(self.login), for: .touchUpInside)
         receberButton.addTarget(self, action: #selector(self.login), for: .touchUpInside)
-
         
         // Do any additional setup after loading the view.
     }
