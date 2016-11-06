@@ -37,6 +37,9 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
                 }
             })
             
+            let categorias = self.storyboard?.instantiateViewController(withIdentifier: "Categorias") as! CategoriasViewController
+            self.present(categorias, animated: true, completion: nil)
+            
         }
         else {
             firstTime = false
@@ -84,6 +87,10 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
                     print("error is \(error)")
                 }
             })
+            
+            let categorias = self.storyboard?.instantiateViewController(withIdentifier: "Categorias") as! CategoriasViewController
+            self.present(categorias, animated: true, completion: nil)
+            
         }
         else
         {

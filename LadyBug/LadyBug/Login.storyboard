@@ -12,7 +12,7 @@
         <!--Login View Controller-->
         <scene sceneID="ZGa-wT-exJ">
             <objects>
-                <viewController id="tuh-Y8-AQ3" customClass="LoginViewController" customModule="LadyBug" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tuh-Y8-AQ3" customClass="LoginViewController" customModule="Minas_de_Ouro" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6KY-wy-RP6"/>
                         <viewControllerLayoutGuide type="bottom" id="rFo-4u-MQW"/>

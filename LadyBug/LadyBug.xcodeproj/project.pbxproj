@@ -18,6 +18,9 @@
 		8835AAF21DCE5DF000DB716A /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8835AAEE1DCE5DF000DB716A /* FBSDKShareKit.framework */; };
 		88F71F501DCE95B60020008D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71F4F1DCE95B60020008D /* LoginViewController.swift */; };
 		88F71F521DCE96920020008D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F71F511DCE96920020008D /* Login.storyboard */; };
+		88F71F541DCEA0530020008D /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71F531DCEA0530020008D /* InitialViewController.swift */; };
+		88F71F561DCEA2570020008D /* CategoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71F551DCEA2570020008D /* CategoriasViewController.swift */; };
+		88F71F581DCEA7C90020008D /* ProjetosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71F571DCEA7C90020008D /* ProjetosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8835AAB21DCE521800DB716A /* LadyBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LadyBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8835AAB21DCE521800DB716A /* Minas de Ouro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minas de Ouro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8835AAB51DCE521800DB716A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8835AABA1DCE521800DB716A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8835AABC1DCE521800DB716A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		88F71F4E1DCE92F30020008D /* LadyBug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LadyBug.entitlements; sourceTree = "<group>"; };
 		88F71F4F1DCE95B60020008D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		88F71F511DCE96920020008D /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		88F71F531DCEA0530020008D /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		88F71F551DCEA2570020008D /* CategoriasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriasViewController.swift; sourceTree = "<group>"; };
+		88F71F571DCEA7C90020008D /* ProjetosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjetosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +93,7 @@
 		8835AAB31DCE521800DB716A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8835AAB21DCE521800DB716A /* LadyBug.app */,
+				8835AAB21DCE521800DB716A /* Minas de Ouro.app */,
 				8835AAC61DCE521800DB716A /* LadyBugTests.xctest */,
 			);
 			name = Products;
@@ -100,6 +106,9 @@
 				8835AAB51DCE521800DB716A /* AppDelegate.swift */,
 				88F71F4F1DCE95B60020008D /* LoginViewController.swift */,
 				8835AAB91DCE521800DB716A /* Main.storyboard */,
+				88F71F571DCEA7C90020008D /* ProjetosViewController.swift */,
+				88F71F551DCEA2570020008D /* CategoriasViewController.swift */,
+				88F71F531DCEA0530020008D /* InitialViewController.swift */,
 				88F71F511DCE96920020008D /* Login.storyboard */,
 				8835AABC1DCE521800DB716A /* Assets.xcassets */,
 				8835AABE1DCE521800DB716A /* LaunchScreen.storyboard */,
@@ -134,7 +143,7 @@
 			);
 			name = LadyBug;
 			productName = LadyBug;
-			productReference = 8835AAB21DCE521800DB716A /* LadyBug.app */;
+			productReference = 8835AAB21DCE521800DB716A /* Minas de Ouro.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8835AAC51DCE521800DB716A /* LadyBugTests */ = {
@@ -228,7 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F71F541DCEA0530020008D /* InitialViewController.swift in Sources */,
+				88F71F581DCEA7C90020008D /* ProjetosViewController.swift in Sources */,
 				88F71F501DCE95B60020008D /* LoginViewController.swift in Sources */,
+				88F71F561DCEA2570020008D /* CategoriasViewController.swift in Sources */,
 				8835AAB61DCE521800DB716A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,9 +386,10 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = LadyBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hackaton.LadyBug;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Minas de Ouro";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -393,9 +406,10 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = LadyBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hackaton.LadyBug;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Minas de Ouro";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
