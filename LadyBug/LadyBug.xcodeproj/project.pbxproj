@@ -23,6 +23,7 @@
 		88F71F581DCEA7C90020008D /* ProjetosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71F571DCEA7C90020008D /* ProjetosViewController.swift */; };
 		88F71F5A1DCECF6C0020008D /* ConfirmarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71F591DCECF6C0020008D /* ConfirmarViewController.swift */; };
 		88F71F5C1DCED05C0020008D /* FimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71F5B1DCED05C0020008D /* FimViewController.swift */; };
+		88F71F5E1DCED6570020008D /* NovoProjetoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71F5D1DCED6570020008D /* NovoProjetoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		88F71F571DCEA7C90020008D /* ProjetosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjetosViewController.swift; sourceTree = "<group>"; };
 		88F71F591DCECF6C0020008D /* ConfirmarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmarViewController.swift; sourceTree = "<group>"; };
 		88F71F5B1DCED05C0020008D /* FimViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FimViewController.swift; sourceTree = "<group>"; };
+		88F71F5D1DCED6570020008D /* NovoProjetoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovoProjetoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				88F71F4E1DCE92F30020008D /* LadyBug.entitlements */,
 				8835AAB51DCE521800DB716A /* AppDelegate.swift */,
 				88F71F4F1DCE95B60020008D /* LoginViewController.swift */,
+				88F71F5D1DCED6570020008D /* NovoProjetoViewController.swift */,
 				8835AAB91DCE521800DB716A /* Main.storyboard */,
 				88F71F5B1DCED05C0020008D /* FimViewController.swift */,
 				88F71F591DCECF6C0020008D /* ConfirmarViewController.swift */,
@@ -249,6 +252,7 @@
 				88F71F5A1DCECF6C0020008D /* ConfirmarViewController.swift in Sources */,
 				88F71F501DCE95B60020008D /* LoginViewController.swift in Sources */,
 				88F71F561DCEA2570020008D /* CategoriasViewController.swift in Sources */,
+				88F71F5E1DCED6570020008D /* NovoProjetoViewController.swift in Sources */,
 				8835AAB61DCE521800DB716A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

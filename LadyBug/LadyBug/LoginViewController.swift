@@ -12,6 +12,7 @@ import FBSDKLoginKit
 class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     var firstTime: Bool = true
+    var option: String = ""
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -38,9 +39,15 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
                 }
             })
             
-            let categorias = self.storyboard?.instantiateViewController(withIdentifier: "Categorias") as! CategoriasViewController
-            //self.present(categorias, animated: true, completion: nil)
-            self.navigationController?.pushViewController(categorias, animated: true)
+            if self.option == "investir" {
+                let categorias = self.storyboard?.instantiateViewController(withIdentifier: "Categorias") as! CategoriasViewController
+                //self.present(categorias, animated: true, completion: nil)
+                self.navigationController?.pushViewController(categorias, animated: true)
+            } else {
+                let novoProjeto = self.storyboard?.instantiateViewController(withIdentifier: "NovoProjeto") as! NovoProjetoViewController
+                //self.present(novoProjeto, animated: true, completion: nil)
+                self.navigationController?.pushViewController(novoProjeto, animated: true)
+            }
             
         }
         else {
@@ -87,9 +94,15 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
                 }
             })
             
-            let categorias = self.storyboard?.instantiateViewController(withIdentifier: "Categorias") as! CategoriasViewController
-            //self.present(categorias, animated: true, completion: nil)
-            self.navigationController?.pushViewController(categorias, animated: true)
+            if self.option == "investir" {
+                let categorias = self.storyboard?.instantiateViewController(withIdentifier: "Categorias") as! CategoriasViewController
+                //self.present(categorias, animated: true, completion: nil)
+                self.navigationController?.pushViewController(categorias, animated: true)
+            } else {
+                let novoProjeto = self.storyboard?.instantiateViewController(withIdentifier: "NovoProjeto") as! NovoProjetoViewController
+                //self.present(novoProjeto, animated: true, completion: nil)
+                self.navigationController?.pushViewController(novoProjeto, animated: true)
+            }
             
         }
         else
