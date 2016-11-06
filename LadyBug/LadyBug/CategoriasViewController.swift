@@ -27,6 +27,10 @@ class CategoriasViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let barButton = UIBarButtonItem()
+        barButton.title = " "
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = barButton
+        
         categoria1Button.addTarget(self, action: #selector(self.projetos), for: .touchUpInside)
         categoria2Button.addTarget(self, action: #selector(self.projetos), for: .touchUpInside)
         categoria3Button.addTarget(self, action: #selector(self.projetos), for: .touchUpInside)
@@ -61,8 +65,8 @@ class CategoriasViewController: UIViewController {
     
     
     func projetos(_ sender: UIButton!) {
-        let projetos = self.storyboard?.instantiateViewController(withIdentifier: "Projetos") as! ProjetosViewController
-        self.present(projetos, animated: true, completion: nil)
+        //let projetos = self.storyboard?.instantiateViewController(withIdentifier: "Projetos") as! ProjetosViewController
+        //self.present(projetos, animated: true, completion: nil)
     }
 
     /*

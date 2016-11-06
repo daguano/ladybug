@@ -18,6 +18,10 @@ class InitialViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let barButton = UIBarButtonItem()
+        barButton.title = " "
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = barButton
+        
         investirButton.addTarget(self, action: #selector(self.login), for: .touchUpInside)
         receberButton.addTarget(self, action: #selector(self.login), for: .touchUpInside)
         
@@ -30,8 +34,8 @@ class InitialViewController: UIViewController {
     }
     
     func login(_ sender: UIButton!) {
-        let login = self.storyboard?.instantiateViewController(withIdentifier: "Login") as! LoginViewController
-        self.present(login, animated: true, completion: nil)
+        //let login = self.storyboard?.instantiateViewController(withIdentifier: "Login") as! LoginViewController
+        //self.present(login, animated: true, completion: nil)
     }
     
     /*

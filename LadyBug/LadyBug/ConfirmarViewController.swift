@@ -1,25 +1,24 @@
 //
-//  ProjetosViewController.swift
+//  ConfirmarViewController.swift
 //  LadyBug
 //
-//  Created by Felipe Daguano on 05/11/16.
+//  Created by Felipe Daguano on 06/11/16.
 //  Copyright © 2016 Hackaton. All rights reserved.
 //
 
 import UIKit
 
-class ProjetosViewController: UIViewController {
+class ConfirmarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let barButton = UIBarButtonItem()
-        barButton.title = " "
-        self.navigationController?.navigationBar.topItem?.backBarButtonItem = barButton
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
 

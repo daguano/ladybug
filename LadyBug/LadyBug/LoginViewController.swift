@@ -15,6 +15,11 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
+        let barButton = UIBarButtonItem()
+        barButton.title = " "
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = barButton
+        
         if (FBSDKAccessToken.current() != nil && !firstTime)
         {
             let req = FBSDKGraphRequest(graphPath: "me", parameters: ["fields":"email,name,gender,location,work,friends"], tokenString: FBSDKAccessToken.current().tokenString, version: nil, httpMethod: "GET")
@@ -34,7 +39,8 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
             })
             
             let categorias = self.storyboard?.instantiateViewController(withIdentifier: "Categorias") as! CategoriasViewController
-            self.present(categorias, animated: true, completion: nil)
+            //self.present(categorias, animated: true, completion: nil)
+            self.navigationController?.pushViewController(categorias, animated: true)
             
         }
         else {
@@ -42,7 +48,7 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
             
             let loginView : FBSDKLoginButton = FBSDKLoginButton()
             self.view.addSubview(loginView)
-            loginView.frame = CGRect(x: 0.0, y: 0.0, width: loginView.frame.width * 1.5, height: loginView.frame.height * 1.5)
+            loginView.frame = CGRect(x: 0.0, y: 0.0, width: loginView.frame.width * 1.8, height: loginView.frame.height * 1.8)
             loginView.center = self.view.center
             loginView.center.y += 100
             loginView.readPermissions = ["public_profile", "email", "user_friends", "read_custom_friendlists"]
@@ -82,7 +88,8 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
             })
             
             let categorias = self.storyboard?.instantiateViewController(withIdentifier: "Categorias") as! CategoriasViewController
-            self.present(categorias, animated: true, completion: nil)
+            //self.present(categorias, animated: true, completion: nil)
+            self.navigationController?.pushViewController(categorias, animated: true)
             
         }
         else
