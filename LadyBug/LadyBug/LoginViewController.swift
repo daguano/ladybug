@@ -67,7 +67,6 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     
@@ -81,8 +80,6 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
             let req = FBSDKGraphRequest(graphPath: "me", parameters: ["fields":"email,name,gender,location,work,friends"], tokenString: FBSDKAccessToken.current().tokenString, version: nil, httpMethod: "GET")
             
             req?.start(completionHandler: { (conn, result, error) in
-                
-                print("Info:::::::::")
                 
                 if(error == nil)
                 {

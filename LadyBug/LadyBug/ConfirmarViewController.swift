@@ -16,7 +16,6 @@ class ConfirmarViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         imageView = UIImageView(image: UIImage(named: "Produto.png"))
         imageView.contentMode = .scaleAspectFit
         imageView.frame = CGRect(x: 0, y: 0, width: 375.0, height: imageView.frame.height * 375.0 / imageView.frame.width)
@@ -45,7 +44,6 @@ class ConfirmarViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func fim(_ sender: UIButton!) {
@@ -53,16 +51,5 @@ class ConfirmarViewController: UIViewController {
         //self.present(projetos, animated: true, completion: nil)
         self.navigationController?.pushViewController(fim, animated: true)
     }
-    
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

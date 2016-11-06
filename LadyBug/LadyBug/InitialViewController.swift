@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FBSDKLoginKit
 
 class InitialViewController: UIViewController {
 
@@ -25,12 +26,13 @@ class InitialViewController: UIViewController {
         investirButton.addTarget(self, action: #selector(self.login), for: .touchUpInside)
         receberButton.addTarget(self, action: #selector(self.login), for: .touchUpInside)
         
-        // Do any additional setup after loading the view.
+        let loginManager = FBSDKLoginManager()
+        loginManager.logOut()
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func login(_ sender: UIButton!) {
@@ -38,12 +40,7 @@ class InitialViewController: UIViewController {
         //self.present(login, animated: true, completion: nil)
     }
     
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-        
         let senderButton: UIButton = sender as! UIButton
         let login: LoginViewController = segue.destination as! LoginViewController
         

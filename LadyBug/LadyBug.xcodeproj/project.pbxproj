@@ -24,6 +24,8 @@
 		88F71F5A1DCECF6C0020008D /* ConfirmarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71F591DCECF6C0020008D /* ConfirmarViewController.swift */; };
 		88F71F5C1DCED05C0020008D /* FimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71F5B1DCED05C0020008D /* FimViewController.swift */; };
 		88F71F5E1DCED6570020008D /* NovoProjetoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71F5D1DCED6570020008D /* NovoProjetoViewController.swift */; };
+		88F71F601DCEF41D0020008D /* FotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71F5F1DCEF41D0020008D /* FotoViewController.swift */; };
+		88F71F621DCF02AD0020008D /* PublicadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71F611DCF02AD0020008D /* PublicadoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		88F71F591DCECF6C0020008D /* ConfirmarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmarViewController.swift; sourceTree = "<group>"; };
 		88F71F5B1DCED05C0020008D /* FimViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FimViewController.swift; sourceTree = "<group>"; };
 		88F71F5D1DCED6570020008D /* NovoProjetoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovoProjetoViewController.swift; sourceTree = "<group>"; };
+		88F71F5F1DCEF41D0020008D /* FotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FotoViewController.swift; sourceTree = "<group>"; };
+		88F71F611DCF02AD0020008D /* PublicadoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicadoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +117,11 @@
 				88F71F4F1DCE95B60020008D /* LoginViewController.swift */,
 				88F71F5D1DCED6570020008D /* NovoProjetoViewController.swift */,
 				8835AAB91DCE521800DB716A /* Main.storyboard */,
+				88F71F611DCF02AD0020008D /* PublicadoViewController.swift */,
 				88F71F5B1DCED05C0020008D /* FimViewController.swift */,
 				88F71F591DCECF6C0020008D /* ConfirmarViewController.swift */,
 				88F71F571DCEA7C90020008D /* ProjetosViewController.swift */,
+				88F71F5F1DCEF41D0020008D /* FotoViewController.swift */,
 				88F71F551DCEA2570020008D /* CategoriasViewController.swift */,
 				88F71F531DCEA0530020008D /* InitialViewController.swift */,
 				88F71F511DCE96920020008D /* Login.storyboard */,
@@ -246,10 +252,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F71F621DCF02AD0020008D /* PublicadoViewController.swift in Sources */,
 				88F71F5C1DCED05C0020008D /* FimViewController.swift in Sources */,
 				88F71F541DCEA0530020008D /* InitialViewController.swift in Sources */,
 				88F71F581DCEA7C90020008D /* ProjetosViewController.swift in Sources */,
 				88F71F5A1DCECF6C0020008D /* ConfirmarViewController.swift in Sources */,
+				88F71F601DCEF41D0020008D /* FotoViewController.swift in Sources */,
 				88F71F501DCE95B60020008D /* LoginViewController.swift in Sources */,
 				88F71F561DCEA2570020008D /* CategoriasViewController.swift in Sources */,
 				88F71F5E1DCED6570020008D /* NovoProjetoViewController.swift in Sources */,

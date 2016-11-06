@@ -1,5 +1,5 @@
 //
-//  FimViewController.swift
+//  PublicadoViewController.swift
 //  LadyBug
 //
 //  Created by Felipe Daguano on 06/11/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FimViewController: UIViewController {
+class PublicadoViewController: UIViewController {
 
     var scrollView: UIScrollView!
     var imageView: UIImageView!
@@ -16,8 +16,7 @@ class FimViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        imageView = UIImageView(image: UIImage(named: "Concluir investimento.png"))
+        imageView = UIImageView(image: UIImage(named: "Publicado.png"))
         imageView.contentMode = .scaleAspectFit
         imageView.frame = CGRect(x: 0, y: 0, width: 375.0, height: imageView.frame.height * 375.0 / imageView.frame.width)
         
