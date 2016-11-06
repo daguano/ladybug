@@ -34,12 +34,23 @@ class CategoriasViewController: UIViewController {
         categoria5Button.addTarget(self, action: #selector(self.projetos), for: .touchUpInside)
         categoria6Button.addTarget(self, action: #selector(self.projetos), for: .touchUpInside)
 
+        acessoriosImage.layer.masksToBounds = false;
         acessoriosImage.layer.cornerRadius = 8.0
+        acessoriosImage.clipsToBounds = true
+        acessoriosImage.layer.shadowOffset = CGSize(width: 5.0, height: 5.0)
+        acessoriosImage.layer.shadowRadius = 5;
+        acessoriosImage.layer.shadowOpacity = 0.5;
+        
         petsImage.layer.cornerRadius = 8.0
+        petsImage.clipsToBounds = true
         vestuarioImage.layer.cornerRadius = 8.0
+        vestuarioImage.clipsToBounds = true
         decoracaoImage.layer.cornerRadius = 8.0
+        decoracaoImage.clipsToBounds = true
         alimentosImage.layer.cornerRadius = 8.0
+        alimentosImage.clipsToBounds = true
         cosmeticosImage.layer.cornerRadius = 8.0
+        cosmeticosImage.clipsToBounds = true
         
     }
 
